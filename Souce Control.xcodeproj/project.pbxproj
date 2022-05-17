@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852C07242834133D00DCBEAF /* Souce_ControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C07232834133D00DCBEAF /* Souce_ControlApp.swift */; };
+		852C07262834133D00DCBEAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C07252834133D00DCBEAF /* ContentView.swift */; };
+		852C07282834134500DCBEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852C07272834134500DCBEAF /* Assets.xcassets */; };
+		852C072B2834134500DCBEAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852C072A2834134500DCBEAF /* Preview Assets.xcassets */; };
+		852C07362834134500DCBEAF /* Souce_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C07352834134500DCBEAF /* Souce_ControlTests.swift */; };
+		852C07402834134500DCBEAF /* Souce_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C073F2834134500DCBEAF /* Souce_ControlUITests.swift */; };
+		852C07422834134500DCBEAF /* Souce_ControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C07412834134500DCBEAF /* Souce_ControlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		852C07322834134500DCBEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852C07182834133D00DCBEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852C071F2834133D00DCBEAF;
+			remoteInfo = "Souce Control";
+		};
+		852C073C2834134500DCBEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852C07182834133D00DCBEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852C071F2834133D00DCBEAF;
+			remoteInfo = "Souce Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		852C07202834133D00DCBEAF /* Souce Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Souce Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852C07232834133D00DCBEAF /* Souce_ControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Souce_ControlApp.swift; sourceTree = "<group>"; };
+		852C07252834133D00DCBEAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		852C07272834134500DCBEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		852C072A2834134500DCBEAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		852C072C2834134500DCBEAF /* Souce_Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Souce_Control.entitlements; sourceTree = "<group>"; };
+		852C07312834134500DCBEAF /* Souce ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Souce ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852C07352834134500DCBEAF /* Souce_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Souce_ControlTests.swift; sourceTree = "<group>"; };
+		852C073B2834134500DCBEAF /* Souce ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Souce ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852C073F2834134500DCBEAF /* Souce_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Souce_ControlUITests.swift; sourceTree = "<group>"; };
+		852C07412834134500DCBEAF /* Souce_ControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Souce_ControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		852C071D2834133D00DCBEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852C072E2834134500DCBEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852C07382834134500DCBEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852C07172834133D00DCBEAF = {
+			isa = PBXGroup;
+			children = (
+				852C07222834133D00DCBEAF /* Souce Control */,
+				852C07342834134500DCBEAF /* Souce ControlTests */,
+				852C073E2834134500DCBEAF /* Souce ControlUITests */,
+				852C07212834133D00DCBEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		852C07212834133D00DCBEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				852C07202834133D00DCBEAF /* Souce Control.app */,
+				852C07312834134500DCBEAF /* Souce ControlTests.xctest */,
+				852C073B2834134500DCBEAF /* Souce ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		852C07222834133D00DCBEAF /* Souce Control */ = {
+			isa = PBXGroup;
+			children = (
+				852C07232834133D00DCBEAF /* Souce_ControlApp.swift */,
+				852C07252834133D00DCBEAF /* ContentView.swift */,
+				852C07272834134500DCBEAF /* Assets.xcassets */,
+				852C072C2834134500DCBEAF /* Souce_Control.entitlements */,
+				852C07292834134500DCBEAF /* Preview Content */,
+			);
+			path = "Souce Control";
+			sourceTree = "<group>";
+		};
+		852C07292834134500DCBEAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				852C072A2834134500DCBEAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		852C07342834134500DCBEAF /* Souce ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				852C07352834134500DCBEAF /* Souce_ControlTests.swift */,
+			);
+			path = "Souce ControlTests";
+			sourceTree = "<group>";
+		};
+		852C073E2834134500DCBEAF /* Souce ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				852C073F2834134500DCBEAF /* Souce_ControlUITests.swift */,
+				852C07412834134500DCBEAF /* Souce_ControlUITestsLaunchTests.swift */,
+			);
+			path = "Souce ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		852C071F2834133D00DCBEAF /* Souce Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852C07452834134500DCBEAF /* Build configuration list for PBXNativeTarget "Souce Control" */;
+			buildPhases = (
+				852C071C2834133D00DCBEAF /* Sources */,
+				852C071D2834133D00DCBEAF /* Frameworks */,
+				852C071E2834133D00DCBEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Souce Control";
+			productName = "Souce Control";
+			productReference = 852C07202834133D00DCBEAF /* Souce Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		852C07302834134500DCBEAF /* Souce ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852C07482834134500DCBEAF /* Build configuration list for PBXNativeTarget "Souce ControlTests" */;
+			buildPhases = (
+				852C072D2834134500DCBEAF /* Sources */,
+				852C072E2834134500DCBEAF /* Frameworks */,
+				852C072F2834134500DCBEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852C07332834134500DCBEAF /* PBXTargetDependency */,
+			);
+			name = "Souce ControlTests";
+			productName = "Souce ControlTests";
+			productReference = 852C07312834134500DCBEAF /* Souce ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		852C073A2834134500DCBEAF /* Souce ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852C074B2834134500DCBEAF /* Build configuration list for PBXNativeTarget "Souce ControlUITests" */;
+			buildPhases = (
+				852C07372834134500DCBEAF /* Sources */,
+				852C07382834134500DCBEAF /* Frameworks */,
+				852C07392834134500DCBEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852C073D2834134500DCBEAF /* PBXTargetDependency */,
+			);
+			name = "Souce ControlUITests";
+			productName = "Souce ControlUITests";
+			productReference = 852C073B2834134500DCBEAF /* Souce ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		852C07182834133D00DCBEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					852C071F2834133D00DCBEAF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					852C07302834134500DCBEAF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 852C071F2834133D00DCBEAF;
+					};
+					852C073A2834134500DCBEAF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 852C071F2834133D00DCBEAF;
+					};
+				};
+			};
+			buildConfigurationList = 852C071B2834133D00DCBEAF /* Build configuration list for PBXProject "Souce Control" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 852C07172834133D00DCBEAF;
+			productRefGroup = 852C07212834133D00DCBEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				852C071F2834133D00DCBEAF /* Souce Control */,
+				852C07302834134500DCBEAF /* Souce ControlTests */,
+				852C073A2834134500DCBEAF /* Souce ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		852C071E2834133D00DCBEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852C072B2834134500DCBEAF /* Preview Assets.xcassets in Resources */,
+				852C07282834134500DCBEAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852C072F2834134500DCBEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852C07392834134500DCBEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		852C071C2834133D00DCBEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852C07262834133D00DCBEAF /* ContentView.swift in Sources */,
+				852C07242834133D00DCBEAF /* Souce_ControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852C072D2834134500DCBEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852C07362834134500DCBEAF /* Souce_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852C07372834134500DCBEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852C07422834134500DCBEAF /* Souce_ControlUITestsLaunchTests.swift in Sources */,
+				852C07402834134500DCBEAF /* Souce_ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		852C07332834134500DCBEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852C071F2834133D00DCBEAF /* Souce Control */;
+			targetProxy = 852C07322834134500DCBEAF /* PBXContainerItemProxy */;
+		};
+		852C073D2834134500DCBEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852C071F2834133D00DCBEAF /* Souce Control */;
+			targetProxy = 852C073C2834134500DCBEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		852C07432834134500DCBEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		852C07442834134500DCBEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		852C07462834134500DCBEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Souce Control/Souce_Control.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Souce Control/Preview Content\"";
+				DEVELOPMENT_TEAM = 955TT7M252;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craigkabrhel.Tell-Me-A-Story-Please.Souce-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		852C07472834134500DCBEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Souce Control/Souce_Control.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Souce Control/Preview Content\"";
+				DEVELOPMENT_TEAM = 955TT7M252;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craigkabrhel.Tell-Me-A-Story-Please.Souce-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		852C07492834134500DCBEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955TT7M252;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craigkabrhel.Tell-Me-A-Story-Please.Souce-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Souce Control.app/Contents/MacOS/Souce Control";
+			};
+			name = Debug;
+		};
+		852C074A2834134500DCBEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955TT7M252;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craigkabrhel.Tell-Me-A-Story-Please.Souce-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Souce Control.app/Contents/MacOS/Souce Control";
+			};
+			name = Release;
+		};
+		852C074C2834134500DCBEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955TT7M252;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craigkabrhel.Tell-Me-A-Story-Please.Souce-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Souce Control";
+			};
+			name = Debug;
+		};
+		852C074D2834134500DCBEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955TT7M252;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craigkabrhel.Tell-Me-A-Story-Please.Souce-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Souce Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		852C071B2834133D00DCBEAF /* Build configuration list for PBXProject "Souce Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852C07432834134500DCBEAF /* Debug */,
+				852C07442834134500DCBEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852C07452834134500DCBEAF /* Build configuration list for PBXNativeTarget "Souce Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852C07462834134500DCBEAF /* Debug */,
+				852C07472834134500DCBEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852C07482834134500DCBEAF /* Build configuration list for PBXNativeTarget "Souce ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852C07492834134500DCBEAF /* Debug */,
+				852C074A2834134500DCBEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852C074B2834134500DCBEAF /* Build configuration list for PBXNativeTarget "Souce ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852C074C2834134500DCBEAF /* Debug */,
+				852C074D2834134500DCBEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 852C07182834133D00DCBEAF /* Project object */;
+}
